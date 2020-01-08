@@ -1,5 +1,6 @@
 package com.example.mindsettle
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun createAccount(){
         //Explicit Intent
-        val intent = Intent(this, CreateAccountActivity::class.java)
+        val intent = Intent(this, EventsActivity::class.java)
 
         //start the second activity. With no return value
         startActivity(intent)
